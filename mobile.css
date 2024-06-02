@@ -1,0 +1,69 @@
+@keyframes fadeup{
+
+    from{
+        transform:translateY(-10)
+    }
+    to{
+        transform:translateY(0);
+    }
+
+}
+
+.subtitle{
+animation: fadeup 0.5s ease-in-out;
+
+}
+
+body{
+
+
+box-sizing: border-box;
+
+width: 100%;
+height:100vh;
+}
+
+@keyframes fadeDown {
+      
+  0% {                                                        /*  0% means starting point and 100% means here its gonna end and anything else in between is gonna be affected in between the animation */
+    transform:translateY(-50px);
+    opacity:0;
+ }
+
+ 100% {
+    transform:translateY(0);
+    opacity:1;
+ }
+    
+
+}
+
+
+.navbar2{
+animation: fadeDown 0.5s ease-in-out;}
+
+.border{
+border:1px solid black;
+}
+
+
+#mobile-section {
+display:block;
+}
+
+#desktop-section{
+display:none;
+}
+
+
+/* @media ( max-width: 750px ){
+
+#mobile-section {
+display:block;
+}
+
+#desktop-section{
+display:none;
+}
+
+}  */
