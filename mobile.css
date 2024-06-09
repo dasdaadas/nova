@@ -55,15 +55,7 @@ display:block;
 display:none;
 }
 
-
-/* @media ( max-width: 750px ){
-
-#mobile-section {
-display:block;
-}
-
-#desktop-section{
-display:none;
-}
-
-}  */
+.logo{
+    height:60px
+  }
+ 

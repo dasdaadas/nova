@@ -17,12 +17,12 @@ window.onscroll =  () => {
           console.log(opacity);
           showOpacity('preciousBeerBottle',opacity.toString());
           
-           let margin = ((scrollY - 561) / (661 - 561)) * 5;
+           let margin = ((scrollY - 561) / (661 - 561)) * 20;
            
-           let finalMargin = 5 - margin;
+           let finalMargin = 20 - margin;
 
     // Ensure finalMargin does not go below 0
-            finalMargin = Math.max(0, finalMargin);
+            finalMargin = Math.max(11, finalMargin);
           console.log(`margin = ${finalMargin.toFixed(1)}, @${window.scrollY}`);
           document.getElementById('erdinger').style.marginLeft = `${finalMargin.toFixed(1)}em`
            
@@ -33,9 +33,12 @@ window.onscroll =  () => {
            console.log(opacity);
            showOpacity('preciousBeerBottle',opacity.toString());
            
-           let margin = ((2300 - window.scrollY)/(2300-1900)) *5;
-           let finalMargin = 5 - margin;
+           let margin = ((2300 - window.scrollY)/(2300-1900)) * 20;
+           let finalMargin = 20 - margin;
+
+           finalMargin = Math.max(11, finalMargin);
            document.getElementById('erdinger').style.marginLeft = `${finalMargin.toFixed(1)}em`
+           console.log(`margin = ${finalMargin.toFixed(1)}, @${window.scrollY}`);
      }
 
      if(window.scrollY >= 2300 && window.scrollY <= 661) {

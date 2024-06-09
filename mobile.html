@@ -14,7 +14,7 @@
     <style>
 
     #image1{
-         background-image: url(./assets/carousal1.avif);
+         background-image: url(./assets/company/beercan6.jpeg);
          background-repeat:no-repeat;
          background-size:cover;
          height:100vh;
@@ -22,14 +22,14 @@
     }
 
    #image2{
-        background-image: url(./assets/carousal2.avif) ;
+        background-image: url(./assets/company/beercan7.jpeg) ;
         background-repeat:no-repeat;
         background-size:cover;
         height:100vh;
    }
 
    #image3{
-        background-image: url(./assets/carousal3.avif) ;
+        background-image: url(./assets/company/beercan8.jpeg) ;
         background-repeat:no-repeat;
         background-size:cover;
         height:100vh;
@@ -173,6 +173,21 @@
         .navbar-collapse.show .navbar-divider {
             display: none;
         }
+
+
+
+        .cards{
+          width: 100%;
+
+        } 
+
+        .cardsContainer{
+          width:90%;
+          height: 200px;
+          overflow:hidden;
+          margin-bottom: 2em;
+          border-radius: 20px
+        }
     </style>
 </head>
    
@@ -182,10 +197,11 @@
 <body>
    <nav class="navbar  navbar-expand-lg navbar-dark" >
     <div class="container">
+      <div><img src="./assets/company/logo.png" class="logo" id="brandlogo"></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <div style="margin-top:10px" class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#carouselExampleFade">Home</a>
@@ -481,8 +497,8 @@
       
 
       </div> 
-     <div  style="position:fixed; right:0px; top:185px; width:18%; opacity: 0;" id="preciousBeerBottle">
-       <img id="erdinger"  src="./assets/bottle3.0.png" style="width:100%; margin-left:5em; mix-blend-mode: multiply ;">
+     <div  style="position:fixed; right:0px; top:185px; width:100%; opacity: 0;" id="preciousBeerBottle">
+       <img id="erdinger"  src="./assets/Beer Can.png" style="width:100%; margin-left:20em; mix-blend-mode: multiply ;">
      </div>
     </div>
        
@@ -505,24 +521,25 @@
   
 <div class=" my-5 d-flex justify-content-center">
 <div class="mx-auto text-center"      style="display:block;">
-<div data-aos="fade-right"
+<div class="cardsContainer" data-aos="fade-right"
 data-aos-offset="100"
 data-aos-easing="linear"
-data-aos-duration="1000"><img class="cards" src="./assets/card1.avif" ></div>
+data-aos-duration="1000"><img class="cards" src="./assets/company/beercan6.jpeg" ></div>
 
-<div data-aos="fade-right"
+<div class="cardsContainer" data-aos="fade-right"
 data-aos-offset="100"
 data-aos-easing="linear"
-data-aos-duration="1000"><img class="cards" src="./assets/card2.avif"></div>
+data-aos-duration="1000"><img class="cards" src="./assets/company/beercan7.jpeg"></div>
 
-<div data-aos="fade-right"
+<div class="cardsContainer" data-aos="fade-right"
 data-aos-offset="100"
 data-aos-easing="linear"
-data-aos-duration="1000"><img class="cards" src="./assets/card3.avif"></div>
-<div data-aos="fade-right"
+data-aos-duration="1000"><img class="cards" src="./assets/company/beercan8.jpeg"></div>
+
+<div class="cardsContainer" data-aos="fade-right"
 data-aos-offset="100"
 data-aos-easing="linear"
-data-aos-duration="1000"><img class="cards" src="./assets/card4.avif"></div>
+data-aos-duration="1000"><img class="cards" src="./assets/company/beercan11.jpeg"></div>
 </div>
 </div>
 
