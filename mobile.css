@@ -55,7 +55,14 @@ display:block;
 display:none;
 }
 
-.logo{
-    height:60px
-  }
- 
+@keyframes invertAnimation {
+    0% {
+        filter: brightness(1) invert(0); /* Start with normal colors */
+    }
+    50% {
+        filter: brightness(0) invert(1); /* Invert halfway through */
+    }
+    100% {
+        filter: brightness(1) invert(0); /* Revert back to normal */
+    }
+}

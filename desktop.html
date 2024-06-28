@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>Beer Website</title>
-
+    <title>Nova Traders & Manufacturers</title>
+    
     <link rel="stylesheet" href ="desktop.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="./assets/logonew.PNG">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
     
     <style>
 
     #image1{
-         background-image: url(./assets/company/beercan9.jpeg);
+         background-image: url(./assets/company/IMG_1361.MOV);
          background-repeat:no-repeat;
          background-size:cover;
          height:100vh;
@@ -81,7 +82,6 @@
    .cards{
      height:60vh;
      border-radius: 2%;
-     filter:blur(1.5px);
    }
    
 
@@ -103,7 +103,6 @@
     transform: scale(1.05); 
     overflow:hidden;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    filter:blur(0px);
    }
 
    
@@ -217,14 +216,22 @@
 
     </style>
 </head>
-   
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PR4HM4L817"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PR4HM4L817');
+</script>
 
 
 
 <body>
    <nav class="navbar  navbar-expand-lg navbar-dark" >
     <div class="container">
-      <div><a href="/" style="text-decoration: none;"><span style="color: #FFD700;font-family: 'Yeseva One';font-size: 2em;">Nova Traders</span></a>  </div>
+      <div><a href="/" style="text-decoration: none;"><span style="color: #FFD700;font-family: 'Yeseva One';font-size: 2em;">NOVA</span></a>  </div>
       
         <button class="navbar-toggler " style="color:white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon" ></span>
@@ -238,25 +245,25 @@
                     <span class="navbar-divider"></span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#section1">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                     <span class="navbar-divider"></span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#section2">Gallery</a>
+                    <a class="nav-link" href="#gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
                     <span class="navbar-divider"></span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#section3">Testimonials</a>
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
                 </li>
                 <li class="nav-item">
                     <span class="navbar-divider"></span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#section4">Contact</a>
+                    <a class="nav-link" href="#about">Contact</a>
                 </li>
             </ul>
 
@@ -264,16 +271,16 @@
 
             <ul class="navbar-nav social-icons " id="horizontal">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+                    <a class="nav-link" href="https://www.facebook.com/profile.php?id=61561374008780&mibextid=LQQJ4d" target="_blank"><i class="bi bi-facebook"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+                    <a class="nav-link" href="https://wa.me/919862707177" target="_blank"><i class="bi bi-whatsapp"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+                    <a class="nav-link" href="https://instagram.com/gingernova2024" target="_blank"><i class="bi bi-instagram"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-linkedin"></i></a>
+                    <a class="nav-link" href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </li>
             </ul>
         </div>
@@ -301,7 +308,9 @@
 
           <div class="carousel-item active  d-flex justify-content-center " id="image1">
 
-        
+            <video  autoplay style="height: 100%;position: absolute; top: 0; left: 0;border: 1px solid white;" loop>
+              <source src="./assets/company/Untitled design.mp4" type="video/mp4">
+            </video>
 
             <div class="my-auto text-center">
                 
@@ -314,14 +323,14 @@
             <div  class=" line my-auto" data-aos="fade-left"
             data-aos-easing="sine"> </div>
             </div>
-            <h1 class="text-light my-3 display-1 fw-bold" data-aos="fade-up"
-            data-aos-easing="sine">Best Crafted Beers</h1>
+            <h1 class="text-light my-3 display-3 fw-bold" data-aos="fade-up"
+            data-aos-easing="sine">NOVA TRADERS & MANUFACTURERS</h1>
             <button class="mt-4 primary-button" data-aos="fade-up"
-            data-aos-easing="sine">EXPLORE <i class="bi bi-arrow-right  mx-2 "> </i> </button>
+            data-aos-easing="sine" onclick="this.addEventListener('click',()=>{window.location.href='#explore'})">EXPLORE <i class="bi bi-arrow-right  mx-2 "> </i> </button>
 
             </div>
           </div>
-          <div class="carousel-item d-flex justify-content-center" id="image2">
+          <!-- <div class="carousel-item d-flex justify-content-center" id="image2">
              <div class="my-auto text-center">
                 
               <div class="d-flex justify-content-center subtitle" >
@@ -341,8 +350,8 @@
               </div>
             
 
-          </div>
-          <div class="carousel-item d-flex justify-content-center" id="image3">
+          </div> -->
+          <!-- <div class="carousel-item d-flex justify-content-center" id="image3">
             <div class="my-auto text-center">
                 
               <div class="d-flex justify-content-center subtitle" >
@@ -361,38 +370,36 @@
   
               </div>
 
-          </div>
+          </div> -->
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </button>
+        </button> -->
       </div>
 </section>
 
 <div class="d-flex justify-content-center my-3">
-<section style="border:1px solid rgb(240, 226, 180); padding-bottom: 3em; width: 97.8vw;border-radius:8px ">
+<section style="border:1px solid rgb(240, 226, 180); padding-bottom: 3em; width: 97.8vw;border-radius:8px " id="explore">
    <div class="d-flex justify-content-center my-2">
   <div class=" d-flex justify-content-center" style=" height:32vh;  width: 96vw" id="outerBox" >
 
    <div class="my-auto">
     <div class="d-flex justify-content-center ">
     <div class="line2 my-auto"> </div>
-    <div class="mx-3 my-auto">Original recipe</div>
+    <div class="mx-3 my-auto">MADE IN NAGALAND</div>
     <div class="line2 my-auto"> </div>
     </div>
 
     <h1 class="text-center mt-2 header2" style="font-family: 'Montserrat', sans-serif;
-    font-weight: 700;" >REFINED  BEER</h1>
+    font-weight: 700;color: #d4af37;" >Ginger Nova</h1>
     <div class="my-3">
     <p class="my-0" style="font-family: 'Open Sans', sans-serif;
-    font-weight: 400;"> Lorem ipsum dolor sit amet, a mea epicuri vituperator</p>
-    <p class="text-center" style="font-family: 'Open Sans', sans-serif;
-    font-weight: 400;">bus ea,ea nam movet complectitur</p>
+    font-weight: 400;"> Experience the bold authentic essence of ginger crafted with the finest ginger extracts and infused with effervescent bubbles..</p>
     </div>
 
    </div>
@@ -407,18 +414,16 @@
 
   <!--desktop section -->
    <div  id="desktop-section">
-   <div class="container2 d-flex justify-content-center mt-2 "  >
-   <div class="d-block" style="margin-right:1em;margin-top:6em">
+    <div class="d-flex justify-content-center">
+   <div class="container2 d-flex justify-content-center mt-2 "  style="width: 70%;">
+   <div class="d-block my-auto text-center" style="margin-top:6em">
   <div data-aos="fade-right"
   data-aos-offset="100"
   data-aos-easing="linear"
   data-aos-duration="1000">
-    <img class="mx-5 my-3" style="height:12em;"  src="./assets/malt1.png">
+    <img class=" my-3" style="height:12em;"  src="./assets/company/1.jpg">
     <div >
-      <h5 class="mx-4 my-3" style="font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 2px;"> PREMIUM MALT</h5>
-      <p class="my-0 mx-2">Lorem ipsum dolor sit amet con</p>
-      <p class="my-0 mx-2">tetur adi isicing elit sed do eius</p>
-      <p class="my-0 mx-4">od tempor in incide</p>
+      <h5 class=" my-3" style="font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 2px;"> 100% Organic</h5>
     </div>
   </div>
 
@@ -427,12 +432,10 @@
   data-aos-offset="100"
   data-aos-easing="linear"
   data-aos-duration="1000">
-    <img style="height:10em;" class="my-3"  src="./assets/barley1.png">
+    <img style="height:10em;" class="my-3"  src="./assets/company/2.jpg">
     <div>
-      <h5 class="mx-4 my-3" style="font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 2px;">PREMIUM BARLEY</h5>
-      <p class="my-0 mx-3">Lorem ipsum dolor sit amet con</p>
-      <p class="my-0 mx-3">tetur adi isicing elit sed do eius</p>
-      <p class="my-0 mx-5">od tempor in incide</p>
+      <h5 class=" my-3" style="font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 2px;">Finest Gingers from Nagaland</h5>
+     
     </div>
   </div>
   </div> 
@@ -450,35 +453,32 @@
 
 
   
-   <div class="d-block" style=" margin-left:1em;margin-top:6em;">
+   <div class="d-block my-auto " style="margin-top:6em;">
     <div data-aos="fade-left"
     data-aos-offset="100"
     data-aos-easing="linear"
     data-aos-duration="1000">
-      <img class="mx-5 my-3" style="height:12em;"  src="./assets/malt1.png">
+      <img class="mx-5 my-3" style="height:10em;"  src="https://cdn-icons-png.flaticon.com/512/4876/4876692.png">
       <div>
-        <h5 class="mx-4 my-3" style="font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 2px;"> PREMIUM MALT</h5>
-        <p class="my-0"style="font-family: 'Open Sans', sans-serif;">Lorem ipsum dolor sit amet con</p>
-        <p class="my-0"style="font-family: 'Open Sans', sans-serif;">tetur adi isicing elit sed do eius</p>
-        <p class="my-0 mx-4"style="font-family: 'Open Sans', sans-serif;">od tempor in incide</p>
+        <h5 class="mx-4 my-3 " style="font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 2px;"></h5>
+      
       </div>
     </div>
   
-    <div style="margin-top:5em" data-aos="fade-left"
+    <div style="margin-top:5em" data-aos="fade-left" class="text-center"
     data-aos-offset="100"
     data-aos-easing="linear"
     data-aos-duration="1000">
-      <img style="height:10em;" class="my-3"  src="./assets/barley1.png">
+      <img style="height:15em;" class="my-3"  src="./assets/company/NON alcoholic.png">
       <div>
-        <h5 class="mx-4 my-3" style="font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 2px;">PREMIUM BARLEY</h5>
-        <p class="my-0 mx-3">Lorem ipsum dolor sit amet con</p>
-        <p class="my-0 mx-3">tetur adi isicing elit sed do eius</p>
-        <p class="my-0 mx-5">od tempor in incide</p>
+        <h5 class="mx-4 my-3" style="font-family: 'Montserrat', sans-serif; font-weight: 400; letter-spacing: 2px;"></h5>
+       
       </div>
     </div>
     </div> 
 
   </div>
+</div>
   </div>
   </div>
   
@@ -489,16 +489,16 @@
 
 
 
-<section>
+<section id="gallery">
 
-<div class=" my-3 d-flex justify-content-center">
+<div class=" my-5 d-flex justify-content-center" >
 <div style="display:grid; grid-template-columns: repeat(3,auto); gap:30px">
+<div class="card-container"><img class="cards" src="./assets/company/beercan1.jpeg"></div>
+<div class="card-container"><img class="cards" src="./assets/company/WhatsApp Image 2024-06-27 at 1.12.20 PM.jpeg"></div>
+<div class="card-container"><img class="cards" src="./assets/company/WhatsApp Image 2024-06-27 at 1.12.20 PM.jpeg" ></div>
+<!-- <div class="card-container"><img class="cards" src="./assets/company/beercan11.jpeg"></div>
 <div class="card-container"><img class="cards" src="./assets/company/beercan6.jpeg"></div>
-<div class="card-container"><img class="cards" src="./assets/company/beercan7.jpeg"></div>
-<div class="card-container"><img class="cards" src="./assets/company/beercan8.jpeg"></div>
-<div class="card-container"><img class="cards" src="./assets/company/beercan11.jpeg"></div>
-<div class="card-container"><img class="cards" src="./assets/company/beercan6.jpeg"></div>
-<div class="card-container"><img class="cards" src="./assets/company/beercan8.jpeg"></div>
+<div class="card-container"><img class="cards" src="./assets/company/beercan8.jpeg"></div> -->
 
 </div>
 </div>
@@ -512,75 +512,93 @@
 
 <section class="cta-section bg-dark text-light py-5">
   <div class="container text-center">
-    <h2 class="mb-4 fw-bold">Join Our Beer Lovers Club</h2>
+    <div class="d-flex justify-content-between">
+      <div class="my-auto">
+        <h2 class="mb-4 fw-bold">Place an Order Request</h2>
     <p class="mb-4">Get exclusive updates on new releases, special events, and more!</p>
-    <form class="d-flex justify-content-center">
-      <input type="email" class="form-control w-50 me-2" placeholder="Enter your email">
-      <button type="submit" class="btn btn-success">Subscribe</button>
-    </form>
+      </div>
+      <div class="my-auto">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemUf4m9QF7hLPlLhuVkF9HOVgOrBKBUtiwnzG98PXhJxlpaA/viewform?embedded=true" width="640" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+      
+    </div>
   </div>
 </section>
 
-<section class="testimonial-section py-5 bg-light">
+<section class="testimonial-section py-5 bg-light" id="testimonials">
   <div class="container text-center ">
     <h2 class="mb-5 fw-bold">What Our Customers Say</h2>
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="testimonial p-4 bg-white shadow rounded" >
-          <img class="portrait my-2"   src="./assets/portrait1.jpg" >
-          <p class="mb-4">"The best beer I've ever had! The taste is incredible and the quality is unmatched."</p>
-          <h5 class="mb-0">John Doe</h5>
-          <small>Beer Enthusiast</small>
+          <!-- <img class="portrait my-2"   src="./assets/portrait1.jpg" > -->
+          <p class="mb-4 " style="text-align: justify;">"Ginger Nova offers an invigorating burst of flavor, with its zesty ginger profile derived from the lush hills of Nagaland. This non-alcoholic ginger ale captures the essence of local gingers perfectly, providing a spicy kick that is both refreshing and complex. Its taste has a pleasantly familiar beer-like quality, making it a great alternative for those who enjoy the depth of beer without the alcohol. Perfectly balanced, it's a delightful choice for both casual sipping and sophisticated mocktail crafting."</p>
+          <h5 class="mb-0" style="text-align: left;">Alem Aier</h5>
+          <!-- <small></small> -->
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="testimonial p-4 bg-white shadow rounded">
-          <img class="portrait my-2 " src="./assets/portrait2.jpg">
-          <p class="mb-4">"Amazing craftsmanship and attention to detail. I'm a loyal customer for life."</p>
-          <h5 class="mb-0">Jane Smith</h5>
-          <small>Craft Beer Lover</small>
+          <!-- <img class="portrait my-2 " src="./assets/portrait2.jpg"> -->
+          <p class="mb-4" style="text-align: justify;">"Sipping Ginger Nova is like experiencing a piece of Nagaland in a bottle. The vibrant, zesty flavor of the local ginger shines through, offering a bold yet smooth taste that tantalizes the palate. With a complexity reminiscent of a good craft beer, it strikes a perfect balance between spice and subtle sweetness. This non-alcoholic ginger ale is not only refreshing but also carries an earthy richness that makes it a standout option for those seeking a unique and satisfying beverage."</p>
+          <h5 class="mb-0" style="text-align: left;">Theja</h5>
+          <!-- <small>Craft Beer Lover</small> -->
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="testimonial p-4 bg-white shadow rounded">
-          <img class="portrait my-2" src="./assets/portrait3.jpg">
-          <p class="mb-4">"The perfect beer for any occasion. Highly recommend to all my friends and family."</p>
-          <h5 class="mb-0">Emily Johnson</h5>
-          <small>Home Brewer</small>
+          <!-- <img class="portrait my-2" src="./assets/portrait3.jpg"> -->
+          <p class="mb-4" style="text-align: justify;">I love Ginger Nova! The authentic ginger flavor is both robust and smooth, capturing the essence of Nagaland's finest. A must-try for anyone seeking a natural, non-alcoholic beverage."</p>
+          <h5 class="mb-0" style="text-align: justify;">Imlimen Jamir</h5>
+          <!-- <small>Home Brewer</small> -->
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<footer class="footer bg-dark  text-light py-4">
+<footer class="footer bg-dark  text-light py-4" id="about">
   <div class="container">
     <div class="row">
       <div class="col-md-4 mb-3">
         <h5 class="mb-3 fw-bold">About Us</h5>
-        <p>We are dedicated to crafting the finest beers with a commitment to quality and taste.</p>
+        <p style="text-align: justify;">Nova is a distinguished brand originating from the scenic state of Nagaland, specializing in the manufacturing of high-quality drinks and juices. Embracing the rich natural bounty of the region, Nova is dedicated to delivering refreshing and flavorful beverages that embody the essence of Nagaland's unique produce.
+          Nova aims to become a leading name in the beverage industry by consistently delivering high-quality, delicious, and healthy drinks. The brand envisions expanding its reach beyond Nagaland, introducing the rich flavors of the region to a broader audience while remaining true to its roots and values.
+          Overall, Nova stands out as a brand that combines local authenticity with modern production techniques to offer superior drinks and juices, making it a trusted choice for consumers seeking refreshing beverage options.</p>
       </div>
       <div class="col-md-4 mb-3">
         <h5 class="mb-3 fw-bold">Quick Links</h5>
         <ul class="list-unstyled">
-          <li><a href="#" class="text-light">Home</a></li>
-          <li><a href="#" class="text-light">About</a></li>
-          <li><a href="#" class="text-light">Products</a></li>
-          <li><a href="#" class="text-light">Contact</a></li>
+          <li><a href="#carouselExampleFade" class="text-light">Home</a></li>
+          <li><a href="#about" class="text-light">About</a></li>
+          <li><a href="#gallery" class="text-light">Products</a></li>
+          <li><a href="#about" class="text-light">Contact</a></li>
         </ul>
       </div>
       <div class="col-md-4 mb-3">
         <h5 class="mb-3 fw-bold">Follow Us</h5>
         <div>
-          <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61561374008780&mibextid=LQQJ4d" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+          <a href="https://wa.me/919862707177" class="text-light me-3" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://instagram.com/gingernova2024" class="text-light me-3" target="_blank"><i class="bi bi-instagram"></i></a>
           <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="d-flex justify-content-start mt-4">
+          <i class="bi bi-telephone-outbound-fill me-2"></i>
+          <p>+91 9862707177</p>
+        </div>
+        <div class="d-flex justify-content-start mt-2">
+          <i class="bi bi-envelope-at-fill me-2"></i>
+          <p>novamanufacturers@gmail.com</p>
+        </div>
+        <div class="d-flex justify-content-start mt-2">
+          <i class="bi bi-geo-alt-fill me-2"></i>
+          <p>Hill View Colony, DC Court Junction, Dimapur, Nagaland 797112</p>
         </div>
       </div>
     </div>
     <div class="text-center mt-3">
-      <p class="mb-0">&copy; 2024 Nova Traders. All Rights Reserved.</p>
+      <p class="mb-0">&copy; 2024 Nova Traders & Manufacturers. All Rights Reserved.</p>
     </div>
   </div>
 </footer>
